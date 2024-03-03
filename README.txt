@@ -46,8 +46,7 @@ run-testbed: This is the home directory of the testbed and the script file where
 
 1 - Enter whether the P2P algorithm is used or not. (p2p_algorithm_used_values)
 2 - The number of peers that should be used in the testbed, excluding lectureStudio-server, tracker-peer, and analysis and display peers. (number_of_peers_values)
-3 - Enter the file size to be used for data transfer in the testbed. (choice_of_pdf_mb_values)
-
+3 - Enter the file size to be used for data transfer in the testbed. (choice_of_pdf_mb_values)--> The important thing here is that there must be PDF data to be sent under this folder (Path: /master-thesis-ozcankaraca/data-for-testbed/data-for-tests/pdf-files/), and the name of the pdf must be named here, along with its size. For example, 4MB.pdf
 
 After running the testbed, the results are going to be stored in a CSV file:
 Path: /master-thesis-ozcankaraca/results/results-testbed.csv
